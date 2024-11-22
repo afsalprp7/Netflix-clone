@@ -1,0 +1,47 @@
+.row{
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.image-post {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+.image-post::-webkit-scrollbar{
+    display: none;
+}
+
+
+.posts{
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+
+
+.posts:hover{
+    transform: scale(1.1)
+}
+
+
+.smallPost {
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+.smallPost:hover{
+    transform: scale(1.2)
+}
+
+.close-button{
+    display: flex;
+    justify-content: end;
+}
